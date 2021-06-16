@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/outline_info_24"
+            android:title="关于"/>
+        <item
+            android:id="@+id/AliPay"
+            android:icon="@drawable/ic_alipay_line"
+            android:title="支付宝领红包"/>
+    </group>
+</menu>

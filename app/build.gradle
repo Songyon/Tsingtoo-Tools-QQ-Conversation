@@ -12,7 +12,7 @@ android {
         minSdkVersion 29
         targetSdkVersion 30
         versionCode 1
-        versionName "天苍-0.0.1"
+        versionName "天苍-0.0.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -44,5 +44,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     apply plugin: 'kotlin-android-extensions'
     apply plugin: 'kotlin-android'
-
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 }

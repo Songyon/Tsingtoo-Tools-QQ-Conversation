@@ -11,7 +11,7 @@
         android:theme="@style/Theme.QQ强制会话"
         android:resizeableActivity="true">
         <activity android:name=".MainActivity"
-            android:label="QQ强制会话"
+            android:label="QQ账号强制查找"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
