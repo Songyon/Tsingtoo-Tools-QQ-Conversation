@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.QQ强制会话" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.QQ账号强制查找" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#007CFD</item>
         <item name="colorPrimaryVariant">#007CFD</item>

@@ -45,13 +45,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </com.google.android.material.textfield.TextInputLayout>
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textInputLayout"
                 android:layout_centerHorizontal="true"
-                android:text="开始会话"/>
+                app:icon="@drawable/ic_search_2_line"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                android:text="查找"/>
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"

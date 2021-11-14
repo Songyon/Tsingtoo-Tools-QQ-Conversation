@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/drawable/ic_alipay_line.xml" value="0.2388157894736842" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2388157894736842" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/drawable/ic_search_2_line.xml" value="0.13782894736842105" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/drawable/outline_info_24.xml" value="0.2388157894736842" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/drawable/outline_menu_24.xml" value="0.2388157894736842" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/layout/activity_main.xml" value="0.22861842105263158" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/layout/nav_header.xml" value="0.22861842105263158" />
+        <entry key="..\:/Users/q4927/AndroidStudioProjects/QQcon/app/src/main/res/menu/nav_menu.xml" value="0.22861842105263158" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android API 30 Platform" project-jdk-type="Android SDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

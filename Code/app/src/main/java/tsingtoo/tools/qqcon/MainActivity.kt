@@ -1,14 +1,10 @@
 package tsingtoo.tools.qqcon
 
-import android.content.ClipData
-import android.content.ClipboardManager
-import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -36,15 +32,6 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                         setCancelable(false)
                         show()
                     }
-                }
-                R.id.AliPay -> {
-                    val aliPayNumber =getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-                    val mAliPayNumber = ClipData.newPlainText("Label","655199713")
-                    aliPayNumber.setPrimaryClip(mAliPayNumber)
-                    Toast.makeText(this, "已复制红包码\n请打开支付宝App粘贴红包码“655199713”领取红包", Toast.LENGTH_SHORT).show()
-                    //val packageManager=this.packageManager
-                    //val alipay = packageManager.getLaunchIntentForPackage("com.eg.android.AlipayGphone")
-                    //startActivity(alipay)
                 }
             }
             drawerLayout.closeDrawers()
